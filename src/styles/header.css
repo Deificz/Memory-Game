@@ -1,0 +1,62 @@
+#header{
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem 1.5rem 1.5rem; 
+    margin-bottom: 3rem;
+    height: fit-content;
+    box-shadow: 0 0 40px 5px rgb(238, 138, 50);
+    background-color: #9f972a48;
+    font-family: "Roboto";
+  }
+
+  .img-card{
+    height: 30px;
+    position: absolute;
+    left: 25px;
+    top: 50px;
+    transform:  rotate(0deg);
+    transition: all .2s ease-in-out;
+  }
+
+  .img-logo{
+    height: 4rem;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .img-logo:hover + .img-card{
+    transform:  rotate(-30deg);
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem .5rem .5rem .5rem;
+  }
+  
+  
+  #header h1{
+    color: rgb(255, 255, 255);
+    margin: 0 .5rem ;
+    font-size: 2rem;
+    text-shadow:
+    0 0 7px #606060,
+    0 0 10px #e07408df,
+    0 0 12px #cdc7bf,
+    0 0 12px rgb(223, 219, 214),
+    0 0 12px rgb(247, 245, 242);
+    
+  }
+
+  #header h1 span{
+    font-size: .7em;
+    color: #fafafa;
+    text-shadow:
+    0 0 0px #606060,
+    0 0 0px #e07408df,
+    0 0 0px #cdc7bf,
+    0 0 0px rgb(223, 219, 214),
+    0 0 0px rgb(247, 245, 242);
+    
+  }

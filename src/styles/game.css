@@ -1,0 +1,43 @@
+#game-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+
+.play-card{
+    height: 25vh;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.score-board{
+    background: rgba(0, 0, 0, 0.683);
+    box-shadow: 0 8px 32px 0 rgba(135, 60, 31, 0.37);
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1px;
+    font-family: "Playfair Display";
+    border-radius: 30px;
+    border: 5px solid #fafafa86;
+}
+.score-board h1{
+    font-size: 2rem;
+}
+.score-board h1 span{
+    text-shadow:
+    0 0 7px #606060,
+    0 0 10px #e17f06df,
+    0 0 12px #e7850d,
+    0 0 12px rgb(227, 136, 18),
+    0 0 12px rgb(227, 136, 18),
+    0 0 12px rgb(227, 136, 18),
+    0 0 12px rgb(227, 136, 18),
+    0 0 12px rgb(228, 120, 11);
+    font-size: 8rem;
+    
+}
+
