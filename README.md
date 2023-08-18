@@ -1,6 +1,6 @@
 # Memory Game
 
-A web-based game app wherein players guess the same card from the card set throughout the given rounds.
+A web-based game app wherein players should not choose the same card from the card set throughout the given rounds.
 
 Tech stack used:
   -  HTML
