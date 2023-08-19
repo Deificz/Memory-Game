@@ -3,93 +3,93 @@
 "card":[
         {
             "id": 1,
-            "url": "/assets/Images/card-images/card-0-caacc94b.jpg",
+            "url": "/assets/card-0-caacc94b.jpg",
             "isClicked": false
         },
 
 
         {
             "id": 2,
-            "url": "/assets/Images/card-images/card-1-6805c234.jpg",
+            "url": "/assets/card-1-6805c234.jpg",
             "isClicked": false
         },
 
 
         {
             "id": 3,
-            "url": "/assets/Images/card-images/card-2-7a7efb71.jpg",
+            "url": "/assets/card-2-7a7efb71.jpg",
             "isClicked": false
         },
 
         {
             "id": 4,
-            "url": "/assets/Images/card-images/card-3-8a57c46b.jpg",
+            "url": "/assets/card-3-8a57c46b.jpg",
             "isClicked": false
         },
 
         {
             "id": 5,
-            "url": "/assets/Images/card-images/card-4-21293754-4.jpg",
+            "url": "/assets/card-4-21293754.jpg",
             "isClicked": false
         },
 
         {
             "id": 6,
-            "url": "/assets/Images/card-images/card-5-afacd84b.jpg",
+            "url": "/assets/card-5-afacd84b.jpg",
             "isClicked": false
         },
 
         {
             "id": 7,
-            "url": "/assets/Images/card-images/card-6-2a04397d.jpg",
+            "url": "/assets/card-6-2a04397d.jpg",
             "isClicked": false
         },
 
         {
             "id": 8,
-            "url": "/assets/Images/card-images/card-7-fb71cb65.jpg",
+            "url": "/assets/card-7-fb71cb65.jpg",
             "isClicked": false
         },
 
         {
             "id": 9,
-            "url": "/assets/Images/card-images/card-8-636f9d41.jpg",
+            "url": "/assets/card-8-636f9d41.jpg",
             "isClicked": false
         },
 
         {
             "id": 10,
-            "url": "/assets/Images/card-images/card-9-cf7a43fe.jpg",
+            "url": "/assets/card-9-cf7a43fe.jpg",
             "isClicked": false
         },
 
         {
             "id": 11,
-            "url": "/assets/Images/card-images/card-10-54343a14.jpg",
+            "url": "/assets/card-10-54343a14.jpg",
             "isClicked": false
         },
 
         {
             "id": 12,
-            "url": "/assets/Images/card-images/card-11-231234af.jpg",
+            "url": "/assets/card-11-231234af.jpg",
             "isClicked": false
         },
 
         {
             "id": 13,
-            "url": "/assets/Images/card-images/card-12-a3c7be7d.jpg",
+            "url": "/assets/card-12-a3c7be7d.jpg",
             "isClicked": false
         },
 
         {
             "id": 14,
-            "url": "/assets/Images/card-images/card-13-c687286d.jpg",
+            "url": "/assets/card-13-c687286d.jpg",
             "isClicked": false
         },
 
         {
             "id": 15,
-            "url": "/assets/Images/card-images/card-14-de0c9ade.jpg",
+            "url": "/assets/card-14-de0c9ade.jpg",
             "isClicked": false
         }
         
