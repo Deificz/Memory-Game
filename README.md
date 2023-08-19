@@ -6,6 +6,7 @@ Tech stack used:
   -  HTML
   -  CSS
   -  ReactJS
+  -  JavaScript
 
 Dungeon GIF Background: https://dribbble.com/shots/2040007-The-Dungeons
 
