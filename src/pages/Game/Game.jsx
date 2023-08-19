@@ -1,6 +1,6 @@
 import ScoreBoard from '../../components/ScoreBoard.jsx'
 import img_millenium from '../../assets/Images/millenium.png'
-import data from '../../data/filtered_cards.json' 
+import data from '../../../public/data/filtered_cards.json' 
 import goHome from '../../utils/goHome.js'
 
 import '../../styles/game.css'
