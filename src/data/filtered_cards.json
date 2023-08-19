@@ -3,93 +3,93 @@
 "card":[
         {
             "id": 1,
-            "url": "/public/card-images/card-0.jpg",
+            "url": "/src/assets/Images/card-images/card-0.jpg",
             "isClicked": false
         },
 
 
         {
             "id": 2,
-            "url": "/public/card-images/card-1.jpg",
+            "url": "/src/assets/Images/card-images/card-1.jpg",
             "isClicked": false
         },
 
 
         {
             "id": 3,
-            "url": "/public/card-images/card-2.jpg",
+            "url": "/src/assets/Images/card-images/card-2.jpg",
             "isClicked": false
         },
 
         {
             "id": 4,
-            "url": "/public/card-images/card-3.jpg",
+            "url": "/src/assets/Images/card-images/card-3.jpg",
             "isClicked": false
         },
 
         {
             "id": 5,
-            "url": "/public/card-images/card-4.jpg",
+            "url": "/src/assets/Images/card-images/card-4.jpg",
             "isClicked": false
         },
 
         {
             "id": 6,
-            "url": "/public/card-images/card-5.jpg",
+            "url": "/src/assets/Images/card-images/card-5.jpg",
             "isClicked": false
         },
 
         {
             "id": 7,
-            "url": "/public/card-images/card-6.jpg",
+            "url": "/src/assets/Images/card-images/card-6.jpg",
             "isClicked": false
         },
 
         {
             "id": 8,
-            "url": "/public/card-images/card-7.jpg",
+            "url": "/src/assets/Images/card-images/card-7.jpg",
             "isClicked": false
         },
 
         {
             "id": 9,
-            "url": "/public/card-images/card-8.jpg",
+            "url": "/src/assets/Images/card-images/card-8.jpg",
             "isClicked": false
         },
 
         {
             "id": 10,
-            "url": "/public/card-images/card-9.jpg",
+            "url": "/src/assets/Images/card-images/card-9.jpg",
             "isClicked": false
         },
 
         {
             "id": 11,
-            "url": "/public/card-images/card-10.jpg",
+            "url": "/src/assets/Images/card-images/card-10.jpg",
             "isClicked": false
         },
 
         {
             "id": 12,
-            "url": "/public/card-images/card-11.jpg",
+            "url": "/src/assets/Images/card-images/card-11.jpg",
             "isClicked": false
         },
 
         {
             "id": 13,
-            "url": "/public/card-images/card-12.jpg",
+            "url": "/src/assets/Images/card-images/card-12.jpg",
             "isClicked": false
         },
 
         {
             "id": 14,
-            "url": "/public/card-images/card-13.jpg",
+            "url": "/src/assets/Images/card-images/card-13.jpg",
             "isClicked": false
         },
 
         {
             "id": 15,
-            "url": "/public/card-images/card-14.jpg",
+            "url": "/src/assets/Images/card-images/card-14.jpg",
             "isClicked": false
         }
         
