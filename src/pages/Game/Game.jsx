@@ -37,7 +37,7 @@ export default function Game() {
             setCurrentScore(0);
             setCards(data.card);
             setQuote(true);
-            setTimeout(setQuote, 2500, false);
+            setTimeout(setQuote, 2000, false);
             
         }
         else{
