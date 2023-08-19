@@ -5,29 +5,38 @@
     width: fit-content;
 }
 
+.card-screen{
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
 .play-card{
     height: 25vh;
     margin: 20px;
     cursor: pointer;
+    border: 3px solid rgb(3, 3, 3);
 }
 
 .score-board{
     background: rgba(0, 0, 0, 0.683);
     box-shadow: 0 8px 32px 0 rgba(135, 60, 31, 0.37);
     padding: 1rem;
-    width: fit-content;
+    width: 20vw;
+    height: 50vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     line-height: 1px;
     font-family: "Playfair Display";
     border-radius: 30px;
-    border: 5px solid #fafafa86;
+    border: 5px solid #f4f4f4cc;
 }
 .score-board h1{
     font-size: 2rem;
+   
 }
-.score-board h1 span{
+.score-board .current-score span{
     text-shadow:
     0 0 7px #606060,
     0 0 10px #e17f06df,
@@ -41,3 +50,80 @@
     
 }
 
+.score-board .best-score span{
+    text-shadow:
+    0 0 7px #606060,
+    0 0 10px #e14f06df,
+    0 0 12px #e7400d,
+    0 0 12px rgb(228, 29, 11),
+    0 0 12px rgb(228, 29, 11),
+    0 0 12px rgb(228, 29, 11),
+    0 0 12px rgb(228, 29, 11),
+    0 0 12px rgb(228, 29, 11);
+    font-size: 8rem;
+}
+.play-card{
+    transition: all .2s ease-in-out;
+}
+.play-card:hover{
+    transform: scale(1.5);
+}
+
+.score-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.motivation p{
+    font-family: "Playfair Display SC";
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-shadow:
+    0 0 7px #606060,
+    0 0 10px #f1efeddf,
+    0 0 12px #e5dfd9,
+    0 0 12px rgb(200, 200, 200),
+    0 0 12px rgb(22, 22, 22),
+    0 0 12px rgb(14, 14, 14),
+    0 0 12px rgb(23, 23, 23),
+    0 0 12px rgb(27, 27, 27);
+    text-align: center;
+}
+
+.end-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 0 50px;
+    text-align: center;
+    background: rgba( 0, 0, 0, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba(135, 60, 31, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 3px solid rgba(253, 173, 0, 0.607);
+    width: fit-content;
+}
+
+.end-screen img{
+    height: 100px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.end-screen h1{
+    margin-bottom: 50px;
+    font-family: "Playfair Display";
+    font-size: 2rem;
+}
+
+.end-screen img:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(150%);
+    
+}
