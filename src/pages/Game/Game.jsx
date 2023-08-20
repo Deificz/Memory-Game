@@ -2,22 +2,6 @@ import ScoreBoard from '../../components/ScoreBoard.jsx'
 import img_millenium from '../../assets/Images/millenium.png'
 import data from '../../data/filtered_cards.json' 
 import goHome from '../../utils/goHome.js'
-import '../../assets/Images/card-images/card-0.jpg'
-import '../../assets/Images/card-images/card-1.jpg'
-import '../../assets/Images/card-images/card-2.jpg'
-import '../../assets/Images/card-images/card-3.jpg'
-import '../../assets/Images/card-images/card-4.jpg'
-import '../../assets/Images/card-images/card-5.jpg'
-import '../../assets/Images/card-images/card-6.jpg'
-import '../../assets/Images/card-images/card-7.jpg'
-import '../../assets/Images/card-images/card-8.jpg'
-import '../../assets/Images/card-images/card-9.jpg'
-import '../../assets/Images/card-images/card-10.jpg'
-import '../../assets/Images/card-images/card-11.jpg'
-import '../../assets/Images/card-images/card-12.jpg'
-import '../../assets/Images/card-images/card-13.jpg'
-import '../../assets/Images/card-images/card-14.jpg'
-
 
 import '../../styles/game.css'
 import { useState } from 'react';
@@ -30,7 +14,6 @@ export default function Game() {
     const [quote, setQuote] = useState(false);
     const [win, setWin] = useState(false);
 
-    const [isGameOver, setIsGameOver] = useState(false);
     
     //Score counter
     if(currentScore > currentBestScore){
@@ -44,9 +27,7 @@ export default function Game() {
 
         //Check if the card is already clicked
         if(prop.isClicked === true){
-            //Resets the game
-            setIsGameOver(true);
-
+        
             //Resets isClicked property
             prop.isClicked = false;
 
@@ -54,7 +35,6 @@ export default function Game() {
             setCards(data.card);
             setQuote(true);
             setTimeout(setQuote, 2000, false);
-            
         }
         else{
             prop.isClicked = true;
