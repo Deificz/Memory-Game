@@ -1,5 +1,5 @@
 import '../../styles/home.css'
-import startGame from '../../utils/startGame'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -7,7 +7,10 @@ export default function Home() {
        <div className="home-page">
             <h1>Greetings, Duelist</h1>
             <p> you need to avoid clicking the same card twice as much as possible, goodluck!</p>
-            <button onClick={startGame} >PLAY</button>
+            <Link to="/game">
+                <button>PLAY</button>
+            </Link>
+            
        </div>
     )
 }

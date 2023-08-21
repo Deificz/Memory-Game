@@ -1,6 +1,5 @@
 import ScoreBoard from '../../components/ScoreBoard.jsx'
 import img_millenium from '../../assets/Images/millenium.png'
-import goHome from '../../utils/goHome.js'
 import card0 from '../../assets/Images/card-images/card-0.jpg'
 import card1 from '../../assets/Images/card-images/card-1.jpg'
 import card2 from '../../assets/Images/card-images/card-2.jpg'
@@ -17,7 +16,7 @@ import card12 from '../../assets/Images/card-images/card-12.jpg'
 import card13 from '../../assets/Images/card-images/card-13.jpg'
 import card14 from '../../assets/Images/card-images/card-14.jpg'
 
-
+import { Link } from 'react-router-dom';
 import '../../styles/game.css'
 import { useState } from 'react';
 
@@ -50,7 +49,6 @@ export default function Game() {
     if(currentScore > currentBestScore){
         setBestScore(prevBestScore => prevBestScore + 1)
     }
-    console.log(cards);
 
     function handleClick(prop) {
 
@@ -97,7 +95,10 @@ export default function Game() {
                <>
                 <div className='end-screen'>
                     <h1>you've earned this :)</h1>
-                    <img src={img_millenium} onClick={goHome} alt="" />
+                    <Link to="/">
+                        <img src={img_millenium} alt="" />
+                    </Link>
+                    
                 </div>
                </>
              :
