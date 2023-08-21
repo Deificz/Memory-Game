@@ -24,7 +24,7 @@
     cursor: pointer;
   }
 
-  .img-logo:hover + .img-card{
+  .link-logo:hover + .link-card .img-card{
     transform:  rotate(-30deg);
   }
 
@@ -34,7 +34,6 @@
     align-items: center;
     padding: .8rem .5rem .5rem .5rem;
   }
-  
   
   #header h1{
     color: rgb(255, 255, 255);

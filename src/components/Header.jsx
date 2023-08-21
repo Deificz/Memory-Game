@@ -7,11 +7,11 @@ export default function Header (){
     return(
         <section id="header">
             <div className="logo">
-                <Link to="/">
+                <Link className="link-logo" to="/">
                     <img className="img-logo" src={imgLogo} alt=""/>
                 </Link>
 
-                <Link to="/">
+                <Link className="link-card" to="/">
                     <img className="img-card" src={imgCard} alt=""/>
                 </Link>
                 <h1>Memory Game<span> by Deificz</span></h1>
