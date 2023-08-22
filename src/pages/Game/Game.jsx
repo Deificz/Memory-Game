@@ -19,6 +19,7 @@ import card14 from '../../assets/Images/card-images/card-14.jpg'
 import { Link } from 'react-router-dom';
 import '../../styles/game.css'
 import { useState } from 'react';
+import AnimatedPage from '../../components/AnimatedPage.jsx'
 
 export default function Game() {
 
@@ -103,14 +104,19 @@ export default function Game() {
                </>
              :
                <>
-                <ScoreBoard currentScore={currentScore} bestScore={currentBestScore} quote={quote}/>
-                <section id="game-page">
-                    <div className="card-screen">
-                        {cards.map((card) => 
-                            <img key={card.id} src={card.url} onClick={() => handleClick(card)} className='play-card' alt="" /> 
-                        )}
-                    </div>
-                </section>
+               <AnimatedPage>
+                    <ScoreBoard currentScore={currentScore} bestScore={currentBestScore} quote={quote}/>
+               </AnimatedPage>
+               
+                <AnimatedPage>
+                    <section id="game-page">
+                        <div className="card-screen">
+                            {cards.map((card) => 
+                                <img key={card.id} src={card.url} onClick={() => handleClick(card)} className='play-card' alt="" /> 
+                            )}
+                        </div>
+                    </section>
+                </AnimatedPage>
                 </>
         }
         </>
