@@ -21,11 +21,11 @@
 .score-board{
     background: rgba(0, 0, 0, 0.683);
     box-shadow: 0 8px 32px 0 rgba(135, 60, 31, 0.37);
-    padding: 1rem;
-    width: 23vw;
-    height: 50vh;
+    width: 320px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
+    padding-left: 20px;
     flex-direction: column;
     line-height: 1px;
     font-family: "Playfair Display";
