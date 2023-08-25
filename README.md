@@ -16,4 +16,4 @@ Yu-Gi-Oh API : https://ygoprodeck.com/api-guide/
 
 Available for Desktop only
 
-**Live preview:** https://deificz.github.io/Memory-Game/
+**Live preview:** https://deificz-memory.netlify.app/
