@@ -8,7 +8,7 @@ export default function Home() {
             <div className="home-page">
                 <h1>Greetings, Duelist</h1>
                 <p> you need to avoid clicking the same card twice as much as possible, goodluck!</p>
-                <Link to="/Memory-Game/game">
+                <Link to="/game">
                     <button>PLAY</button>
                 </Link>
             </div>

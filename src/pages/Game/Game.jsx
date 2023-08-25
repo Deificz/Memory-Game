@@ -96,7 +96,7 @@ export default function Game() {
                <>
                 <div className='end-screen'>
                     <h1>you've earned this :)</h1>
-                    <Link to="/Memory-Game">
+                    <Link to="/">
                         <img src={img_millenium} alt="" />
                     </Link>
                     
