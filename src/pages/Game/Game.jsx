@@ -23,7 +23,7 @@ import AnimatedPage from '../../components/AnimatedPage.jsx'
 
 export default function Game() {
 
-    const [currentScore, setCurrentScore] = useState(14);
+    const [currentScore, setCurrentScore] = useState(0);
     const [currentBestScore, setBestScore] = useState(0);
     const [quote, setQuote] = useState(false);
     const [win, setWin] = useState(false);
