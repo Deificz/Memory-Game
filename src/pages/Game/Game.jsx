@@ -23,7 +23,7 @@ import AnimatedPage from '../../components/AnimatedPage.jsx'
 
 export default function Game() {
 
-    const [currentScore, setCurrentScore] = useState(0);
+    const [currentScore, setCurrentScore] = useState(14);
     const [currentBestScore, setBestScore] = useState(0);
     const [quote, setQuote] = useState(false);
     const [win, setWin] = useState(false);
@@ -96,7 +96,7 @@ export default function Game() {
                <>
                 <div className='end-screen'>
                     <h1>you've earned this :)</h1>
-                    <Link to="/">
+                    <Link to="/Memory-Game">
                         <img src={img_millenium} alt="" />
                     </Link>
                     

@@ -8,8 +8,8 @@ export default function Body(){
         <>
          <section id='main-body'>
             <Routes>
-                <Route  path="/" index element = {<Home />} />
-                 <Route  path="/game" element = {<Game />} />
+                <Route  path="/Memory-Game" index element = {<Home />} />
+                 <Route  path="/Memory-Game/game" element = {<Game />} />
             </Routes>
         </section>
         </>
