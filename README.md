@@ -8,10 +8,14 @@ Tech stack used:
   -  ReactJS
   -  JavaScript
 
+#
+
 Dungeon GIF Background: https://dribbble.com/shots/2040007-The-Dungeons
 
 Yu-Gi-Oh Back Card: https://www.nicepng.com/maxp/u2e6u2t4i1o0o0i1/
 
 Yu-Gi-Oh API : https://ygoprodeck.com/api-guide/
 
-**Live preview:** https://deificz-memory.netlify.app/
+#
+
+### **LIVE PREVIEW:** https://deificz-memory.netlify.app/
