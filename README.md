@@ -17,5 +17,5 @@ Yu-Gi-Oh Back Card: https://www.nicepng.com/maxp/u2e6u2t4i1o0o0i1/
 Yu-Gi-Oh API : https://ygoprodeck.com/api-guide/
 
 #
-testtest
+
 ### **LIVE PREVIEW:** https://deificz-memory.netlify.app/
